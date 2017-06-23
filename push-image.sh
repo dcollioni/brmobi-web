@@ -11,15 +11,15 @@ CLUSTER_NAME=""
 CLUSTER_ZONE=""
 case "$1" in
   production)
-    PROJECT_ID="superplayer-42ab5"
-    CONTAINER_REGISTRY="us.gcr.io/superplayer-42ab5/prd-brmobi-web"
+    PROJECT_ID="brmobi-168716"
+    CONTAINER_REGISTRY="us.gcr.io/brmobi-168716/prd-brmobi-web"
     CLUSTER_NAME="prd-brmobi-web"
     CLUSTER_ZONE="us-east1-b"
   ;;
 
   staging)
-    PROJECT_ID="superplayer-staging"
-    CONTAINER_REGISTRY="us.gcr.io/superplayer-staging/stg-brmobi-web"
+    PROJECT_ID="brmobi-168716"
+    CONTAINER_REGISTRY="us.gcr.io/brmobi-168716/stg-brmobi-web"
     CLUSTER_NAME="stg-brmobi-web"
     CLUSTER_ZONE="us-east1-b"
   ;;

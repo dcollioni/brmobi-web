@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: stg-brmobi-web
-        image: us.gcr.io/superplayer-staging/stg-brmobi-web:latest
+        image: us.gcr.io/brmobi-168716/stg-brmobi-web:latest
         env:
         - name: "NODE_ENV"
           value: "staging"

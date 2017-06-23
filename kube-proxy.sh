@@ -10,13 +10,13 @@ CLUSTER_NAME=""
 CLUSTER_ZONE=""
 case "$1" in
   production)
-    PROJECT_ID="superplayer-42ab5"
+    PROJECT_ID="brmobi-168716"
     CLUSTER_NAME="prd-brmobi-web"
     CLUSTER_ZONE="us-east1-b"
   ;;
 
   staging)
-    PROJECT_ID="superplayer-staging"
+    PROJECT_ID="brmobi-168716"
     CLUSTER_NAME="stg-brmobi-web"
     CLUSTER_ZONE="us-east1-b"
   ;;

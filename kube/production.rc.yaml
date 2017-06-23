@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: prd-brmobi-web
-        image: us.gcr.io/superplayer-42ab5/prd-brmobi-web:latest
+        image: us.gcr.io/brmobi-168716/prd-brmobi-web:latest
         env:
         - name: "NODE_ENV"
           value: "production"
