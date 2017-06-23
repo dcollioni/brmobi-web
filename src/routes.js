@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import App from './components/app/App'
 import HomeContainer from './containers/HomeContainer'
+import DriverContainer from './containers/DriverContainer'
 import Store from './store'
 
 const routes = (
@@ -16,6 +17,8 @@ const routes = (
       <App>
         <Switch>
           <Route path='/' component={HomeContainer} exact />
+          <Route path='/driver/' component={DriverContainer} exact />
+
           { /* fallback, should be the last entry */}
           <Redirect from='*' to='/' />
         </Switch>

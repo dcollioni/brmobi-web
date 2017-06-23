@@ -21,3 +21,6 @@ yarn-error.log*
 .vscode/*
 yarn.lock
 *.sublime-*
+
+# kube
+.kube/schema/*

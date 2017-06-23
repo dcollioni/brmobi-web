@@ -44,7 +44,7 @@ main button {
 
 main > header {
   background-color: var(--purple);
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 main > header h1 {
   color: var(--white);
