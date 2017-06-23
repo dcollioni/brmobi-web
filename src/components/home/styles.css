@@ -1,0 +1,46 @@
+#home > .content {
+  padding: 20px;
+}
+
+#home > .content h2 {
+  font-weight: normal;
+}
+
+#home > .content .buttons {
+  text-align: center;
+}
+#home > .content .buttons a {
+  background-color: var(--green);
+  border-radius: 30px;
+  color: var(--black);
+  display: block;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 160px;
+}
+#home > .content .buttons a:hover {
+  background-color: var(--green-light);
+}
+#home > .content .buttons a:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  #home > .content .buttons a {
+    display: inline-block;
+  }
+  #home > .content .buttons a:not(:last-child) {
+    margin-bottom: 0;
+  }
+  #home > .content .buttons a:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+}
+
+@media screen and (min-width: 1600px) {
+}

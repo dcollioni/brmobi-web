@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: prd-brmobi-web
+spec:
+  replicas: 1
+  selector:
+    app: prd-brmobi-web
+  template:
+    metadata:
+      name: prd-brmobi-web
+      labels:
+        app: prd-brmobi-web
+    spec:
+      containers:
+      - name: prd-brmobi-web
+        image: us.gcr.io/superplayer-42ab5/prd-brmobi-web:latest
+        env:
+        - name: "NODE_ENV"
+          value: "production"
+        - name: "PORT"
+          value: "80"

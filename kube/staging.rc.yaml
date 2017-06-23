@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: stg-brmobi-web
+spec:
+  replicas: 1
+  selector:
+    app: stg-brmobi-web
+  template:
+    metadata:
+      name: stg-brmobi-web
+      labels:
+        app: stg-brmobi-web
+    spec:
+      containers:
+      - name: stg-brmobi-web
+        image: us.gcr.io/superplayer-staging/stg-brmobi-web:latest
+        env:
+        - name: "NODE_ENV"
+          value: "staging"
+        - name: "PORT"
+          value: "80"

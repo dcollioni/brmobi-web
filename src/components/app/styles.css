@@ -1,0 +1,70 @@
+/* fonts */
+
+:root {
+  --purple: #311b92;
+  --purple-dark: #000063;
+  --purple-light: #6746c3;
+  --green: #b2ff59;
+  --green-dark: #7ecb20;
+  --green-light: #e7ff8c;
+  --white: #fbfbfb;
+  --black: #333333;
+  --gray-light: #dddddd;
+  --gray-dark: #666666;
+}
+
+/* selectors */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background-color: var(--white);
+  color: var(--black);
+  width: 100%;
+}
+
+#app-root {
+  position: relative;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+main input,
+main textarea,
+main button {
+  color: var(--black);
+  font-family: 'Roboto', sans-serif;
+}
+
+main > header {
+  background-color: var(--purple);
+  padding: 10px 30px;
+}
+main > header h1 {
+  color: var(--white);
+  letter-spacing: 1.2px;
+  font-size: 24px;
+}
+
+main > footer {
+  border-top: 1px solid var(--gray-light);
+  color: var(--black);
+  padding: 10px;
+  text-align: center;
+}
+main > footer p {
+  font-size: 14px;
+}
+
+/*@media screen and (min-width: 640px) {
+  main {
+    margin: auto;
+    width: 420px;
+  }
+}*/
