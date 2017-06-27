@@ -11,6 +11,7 @@
   --black: #333333;
   --gray-light: #dddddd;
   --gray-dark: #666666;
+  --gray: #888888;
 }
 
 /* selectors */
@@ -38,8 +39,10 @@ main {
 main input,
 main textarea,
 main button {
+  background-color: transparent;
   color: var(--black);
   font-family: 'Roboto', sans-serif;
+  outline: none;
 }
 
 main > header {

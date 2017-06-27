@@ -14,14 +14,14 @@ case "$1" in
     PROJECT_ID="brmobi-168716"
     CONTAINER_REGISTRY="us.gcr.io/brmobi-168716/prd-brmobi-web"
     CLUSTER_NAME="prd-brmobi-web"
-    CLUSTER_ZONE="us-east1-b"
+    CLUSTER_ZONE="us-central1-a"
   ;;
 
   staging)
     PROJECT_ID="brmobi-168716"
     CONTAINER_REGISTRY="us.gcr.io/brmobi-168716/stg-brmobi-web"
     CLUSTER_NAME="stg-brmobi-web"
-    CLUSTER_ZONE="us-east1-b"
+    CLUSTER_ZONE="us-central1-a"
   ;;
 
   *)

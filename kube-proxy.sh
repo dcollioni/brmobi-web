@@ -12,13 +12,13 @@ case "$1" in
   production)
     PROJECT_ID="brmobi-168716"
     CLUSTER_NAME="prd-brmobi-web"
-    CLUSTER_ZONE="us-east1-b"
+    CLUSTER_ZONE="us-central1-a"
   ;;
 
   staging)
     PROJECT_ID="brmobi-168716"
     CLUSTER_NAME="stg-brmobi-web"
-    CLUSTER_ZONE="us-east1-b"
+    CLUSTER_ZONE="us-central1-a"
   ;;
 
   *)
